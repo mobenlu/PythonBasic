@@ -2,7 +2,8 @@
 
 [editor on GitHub](https://github.com/mobenlu/PythonBasic/edit/master/README.md) 
 
-### Task1 https://github.com/mobenlu/PythonBasic/edit/master/task1.md
+### [Task1] (https://github.com/mobenlu/PythonBasic/edit/master/task1.md)
+### [Task2]
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
