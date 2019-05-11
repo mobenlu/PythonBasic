@@ -58,7 +58,7 @@ input ("Please input 'Hello World'")
 
 
 
-3. python基础讲解
+### 3. python基础讲解
 
 **python变量特性+命名规则**
 - 变量名只能包含字母,数字和下划线,不能包含空格,不要将Python关键字和函数名用作变量名.
