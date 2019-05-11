@@ -1,5 +1,13 @@
 1. 环境搭建
+
 -. anaconda环境配置
+<<<<<<< HEAD
+Download and install Anaconda
+conda upgrade --all
+conda install/remove/upgrade/list/search package_name
+=======
+>>>>>>> 6d72de09ec01f0d2ba94c2baf066895eb3c57a83
+
 -. 解释器
 
 python初体验
