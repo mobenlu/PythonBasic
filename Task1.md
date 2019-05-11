@@ -43,19 +43,38 @@ print ("Hello World")
 
 - input
 
+
+```python
+input ("Please input 'Hello World'")
+```
+
+    Please input 'Hello World'Hello World
+
+
+
+
+
+    'Hello World'
+
+
+
 3. python基础讲解
 
-python变量特性+命名规则
+**python变量特性+命名规则**
+- 变量名只能包含字母,数字和下划线,不能包含空格,不要将Python关键字和函数名用作变量名.
 
-注释方法
+**注释方法**
+- 单行注释以 # 开头
+- 多行注释用三个单引号 ''' 或者三个双引号 """ 将注释括起来
 
-python中“：”作用
+**python中“：”作用**
+- 用于定义分片、步长
 
-学会使用dir( )及和help( )
+**学会使用dir( )及和help( )**
 
-import使用
+**import使用**
 
-pep8介绍
+**pep8介绍**
 
 
 
