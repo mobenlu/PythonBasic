@@ -71,22 +71,68 @@ input ("Please input 'Hello World'")
 - 用于定义分片、步长
 
 **学会使用dir( )及和help( )**
+- 使用dir()函数可以查看对像内所有属于及方法
 
 **import使用**
+- 常规导入（regular imports）
+- 使用from语句导入
+- 相对导入（relative imports）
+- 可选导入（optional imports）
+- 本地导入（local imports）
 
 **pep8介绍**
+- Python Enhancement Proposal #8
+- https://www.python.org/dev/peps/pep-0008/
+
+
+```python
+import urllib
+dir(urllib)
+```
 
 
 
-4. python数值基本知识
-python中数值类型，int，float，bool，e记法等
 
-算数运算符
+    ['__builtins__',
+     '__cached__',
+     '__doc__',
+     '__file__',
+     '__loader__',
+     '__name__',
+     '__package__',
+     '__path__',
+     '__spec__',
+     'error',
+     'parse',
+     'request',
+     'response']
 
-逻辑运算符
 
-成员运算符
 
-身份运算符
+### 4. python数值基本知识
+**python中数值类型，int，float，bool，e记法等**
 
-运算符优先级
+**算数运算符**
+
+**逻辑运算符**
+
+**成员运算符**
+
+**身份运算符**
+
+**运算符优先级**
+
+
+```python
+a = int(3.14)
+print (a)
+b = float(3.14) 
+print (b)
+c = bool()
+print(c)
+```
+
+    3
+    3.14
+    False
+
