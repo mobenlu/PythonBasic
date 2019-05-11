@@ -1,7 +1,7 @@
 
 ### Task1
 
-1. 环境搭建
+### 1. 环境搭建
 
 **anaconda环境配置**
 
@@ -29,59 +29,45 @@ Jython是运行在Java平台上的Python解释器，可以直接把Python代码�
 - IronPython
 IronPython和Jython类似，只不过IronPython是运行在微软.Net平台上的Python解释器，可以直接把Python代码编译成.Net的字节码。
 
-
-
-
-```python
-
-```
+### 2. python初体验
+**print and input**
+- Print
 
 
 ```python
-
+print ("Hello World")
 ```
 
-
-```python
-
-```
+    Hello World
 
 
-```python
+- input
 
-```
+3. python基础讲解
 
+python变量特性+命名规则
 
-```python
+注释方法
 
-```
+python中“：”作用
 
+学会使用dir( )及和help( )
 
-```python
+import使用
 
-```
-
-
-```python
-
-```
+pep8介绍
 
 
-```python
 
-```
+4. python数值基本知识
+python中数值类型，int，float，bool，e记法等
 
+算数运算符
 
-```python
+逻辑运算符
 
-```
+成员运算符
 
+身份运算符
 
-```python
-
-```
-
-
-```python
-
-```
+运算符优先级
