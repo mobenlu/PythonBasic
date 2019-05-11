@@ -110,6 +110,8 @@ dir(urllib)
 
 
 ### 4. python数值基本知识
+[运算符](https://www.runoob.com/python/python-operators.html)
+
 **python中数值类型，int，float，bool，e记法等**
 
 **算数运算符**
