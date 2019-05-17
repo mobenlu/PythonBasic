@@ -1,6 +1,50 @@
 
 ### 1、函数关键字
 
+在定义 Python 函数时可定义形参（形式参数的意思），这些形参的值要等到调用时才能确定下来，由函数的调用者负责为形参传入参数值。简单来说，就是谁调用函数，谁负责传入参数值。
+
+Python 函数的参数名不是无意义的，Python 允许在调用函数时通过名字来传入参数值。因此，Python 函数的参数名应该具有更好的语义，这样程序可以立刻明确传入函数的每个参数的含义。
+
+按照形参位置传入的参数被称为位置参数。如果使用位置参数的方式来传入参数值，则必须严格按照走义函数时指定的顺序来传入参数值；如果根据参数名来传入参数值，则无须遵守定义形参的顺序，这种方式被称为关键字（keyword）参数。
+
+
+```python
+# 定义一个函数
+def girth(width , height):
+    print("width: ", width)
+    print("height: ", height)
+    return 2 * (width + height)
+
+print("传统调用函数的方式，根据位置传入参数")
+print(girth(3.5, 4.8))
+
+print("根据关键字参数来传入参数")
+print(girth(width = 3.5, height = 4.8))
+
+print("使用关键字参数时可交换位置")
+print(girth(height = 4.8, width = 3.5))
+
+print("部分使用关键字参数，部分使用位置参数")
+print(girth(3.5, height = 4.8))
+```
+
+    传统调用函数的方式，根据位置传入参数
+    width:  3.5
+    height:  4.8
+    16.6
+    根据关键字参数来传入参数
+    width:  3.5
+    height:  4.8
+    16.6
+    使用关键字参数时可交换位置
+    width:  3.5
+    height:  4.8
+    16.6
+    部分使用关键字参数，部分使用位置参数
+    width:  3.5
+    height:  4.8
+    16.6
+
 
 ### 2、函数的定义
 [REF](https://www.runoob.com/python/python-functions.html)
@@ -24,13 +68,14 @@ printme("再次调用同一函数");
 
 
 ### 3、函数参数与作用域
+[REF1](https://www.jianshu.com/p/2f3dc7900d95?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
+- 不可变参数”通过值”进行传递。像整数和字符串这样的对象是通过对象引用而不是拷贝进行的，但是因为不论怎么样都不可能在原处改变不可变对象，实际的效果就很像创建了一份拷贝。
 
+- 可变对象是通过”指针”进行传递的。这就意味着，可变对象能够在函数内部进行原处修改。
 
-```python
-4.函数返回值
-
-```
+### 4、函数返回值
+[REF1](https://www.jianshu.com/p/2f3dc7900d95?utm_campaign=maleskine&utm_content=note&utm_medium=seo_notes&utm_source=recommendation)
 
 ### 5、File
 [REF](https://www.runoob.com/python/file-methods.html)
