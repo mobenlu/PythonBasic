@@ -95,13 +95,34 @@ for line in lines:
     I love programming.
 
 
-
-```python
-
-```
-
 ### 6、Os模块
 [操作系统接口模块](https://docs.python.org/zh-cn/3.7/library/os.html)
 
 
 ### 7、Datetime模块
+[基础日期/时间数据类型](https://docs.python.org/zh-cn/3.7/library/datetime.html?highlight=datetime#module-datetime)
+
+[Python 日期和时间](https://www.runoob.com/python/python-date-time.html)
+
+
+```python
+import time
+ 
+localtime = time.localtime(time.time())
+print ("Shanghai is #", localtime)
+localtime = time.asctime( time.localtime(time.time()))
+print ("Shanghai is #", localtime)
+
+localtime2 = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
+print ("Shanghai is #", localtime2)
+
+localtime3 = time.strftime("%a %b %d %H:%M:%S %Y", time.localtime())
+print ("Shanghai is #", localtime3)
+
+```
+
+    Shanghai is # time.struct_time(tm_year=2019, tm_mon=5, tm_mday=17, tm_hour=8, tm_min=13, tm_sec=14, tm_wday=4, tm_yday=137, tm_isdst=0)
+    Shanghai is # Fri May 17 08:13:14 2019
+    Shanghai is # 2019-05-17 08:13:14
+    Shanghai is # Fri May 17 08:13:14 2019
+
